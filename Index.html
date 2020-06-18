@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 3</title>
+    <link rel="stylesheet" href="./Css/Style.css">
+</head>
+<body>
+<!--<table>-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th>Name</th>-->
+<!--        <th>Surname</th>-->
+<!--        <th>Total</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr>-->
+<!--        <td>Felipe</td>-->
+<!--        <td>Chiesa</td>-->
+<!--        <td>$225</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>Catalina</td>-->
+<!--        <td>Chiesa</td>-->
+<!--        <td>$225</td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--    <tfoot>-->
+<!--    <tr>-->
+<!--        <td>Suma</td>-->
+<!--        <td>Gasto</td>-->
+<!--        <td>$450</td>-->
+<!--    </tr>-->
+<!--    </tfoot>-->
+<!--</table>-->
+<form action="">
+<!--    <input type="button" class="button" value="Don't click me">-->
+    <input type="number" id="uno">
+    <input type="button" value="+">
+    <input type="number" id="dos">
+    <input type="button" value="=" onclick="sum()">
+    <input type="number" disabled id="resultado">
+</form>
+<script>
+    function sum() {
+        var a = parseFloat(document.getElementById("uno").value)
+        var b = parseFloat(document.getElementById("dos").value)
+
+        var result = a + b;
+        document.getElementById("resultado").value = result
+
+    }
+</script>
+</body>
+</html>

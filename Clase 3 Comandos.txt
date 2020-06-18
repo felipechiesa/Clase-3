@@ -1,0 +1,32 @@
+Clase 3
+Cualquier cosa con hijos (Clase 2)
+nth-child (decirle a quienes)
+first-child
+last-child
+<link rel="stylesheet" href="./Css/Style.css">
+Tabla
+thead
+tbody
+tfoot
+thead
+tr
+th
+tbody
+tr
+td
+tfoot
+tr
+td
+Style
+border-collapse
+
+thead tr, th
+tbody tr, td       Border
+tfoot tr, td 
+Formulario
+form 
+imput
+placeholder="Write Your Name" value="Pipa">
+
+
+                    
